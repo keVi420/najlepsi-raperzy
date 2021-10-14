@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="img/rapers/mata.png">
+    <title> Strona Główna </title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="copyrightButton" onclick="copy()" data-aos="zoom-in-right" data-aos-duration="2000">
+        <i class="fad fa-copyright"></i>
+    </div>
+    <div class="copyrightButtonContent">
+        <p> © 2021 - keVi420 </p>
+    </div>
+    <header id="header">
+        <div class="hamburgerMenuContent">
+            <a class="menuItem" href="#header" class="active"> HOME </a>
+            <a class="menuItem"href="#main"> TOPKA </a>
+            <br>
+            <br>
+            <a class="menuItem"href="kontakt.html"> KONTAKT </a>
+            <a class="menuItem"href="informacje.html"> INFORMACJE </a>
+        </div>
+        <div class="hamburgerMenu">
+            <div class="hamburgerItem"></div>
+            <div class="hamburgerItem"></div>
+            <div class="hamburgerItem"></div>
+        </div>
+        <div class="header__nav" data-aos="zoom-out-down" data-aos-duration="2000">
+            <a href="#header" class="active"> HOME </a>
+            <a href="#main"> TOPKA </a>
+            <a href="kontakt.html"> KONTAKT </a>
+            <a href="informacje.html"> INFORMACJE </a>
+        </div>
+        <div class="header__header">
+            <h2 data-aos="zoom-in" data-aos-duration="2000"> Witaj na stronie </h2>
+            <h3 data-aos="zoom-in-right" data-aos-duration="2000"> o najlepszych raperach w Polsce </h3>
+            <div class="header__header--emotes" data-aos="flip-up" data-aos-duration="2000">
+                <i class="fad fa-music"></i>
+                <i class="fad fa-headphones"></i>
+                <i class="fad fa-microphone"></i>
+                <i class="fad fa-guitar"></i>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <div class="main__elements">
+            <div class="main__elements--header">
+                <h2 data-aos="zoom-in" data-aos-duration="2000"> Topka raperów </h2>
+                <h3 data-aos="zoom-in-left" data-aos-duration="2000"> zestawienie najlepszych polskich raperów </h3>
+                <div class="main__elements--emotes" data-aos="flip-up" data-aos-duration="2000">
+                    <i class="fas fa-compact-disc"></i>
+                    <i class="fab fa-spotify"></i>
+                    <i class="fab fa-soundcloud"></i>
+                    <i class="fas fa-bells"></i>
+                </div>
+            </div>
+            <div class="main__elements--circles" data-aos="fade-up" data-aos-duration="2000">
+                <a href="mata.html" class="main__elements--circle">
+                    <img src="img/rapers/mata.png">
+                </a>
+                <a href="white.html" class="main__elements--circle">
+                    <img src="img/rapers/white.png">
+                </a>
+                <a href="oki.html" class="main__elements--circle">
+                    <img src="img/rapers/oki.png">
+                </a>
+                <a href="chivas.html" class="main__elements--circle">
+                    <img src="img/rapers/chivas.png">
+                </a>
+                <a href="janusz.html" class="main__elements--circle">
+                    <img src="img/rapers/janusz.png">
+                </a>
+                <a href="taco.html" class="main__elements--circle">
+                    <img src="img/rapers/taco.png">
+                </a>
+                <a href="kvbis.html" class="main__elements--circle">
+                    <img src="img/rapers/kvbis.png">
+                </a>
+            </div>
+            <div class="footer">
+                © 2021 - keVi420
+            </div>
+        </div>
+    </main>
+    <div class="scrollTopButton">
+        <i class="fad fa-arrow-up"></i>
+    </div>
+
+    <script src="scripts/scrollTop.js"></script>
+    <script src="scripts/copyrightButton.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

@@ -7,9 +7,8 @@
 
 ☰ Możliwe, że w przyszłości wprowadzę jakieś zmiany.
 
-☰ Mój CodePen: https://codepen.io/keVi420
-
 ☰ © 2021 - keVi420
 
+☰ Mój CodePen: https://codepen.io/keVi420
 
 Illustrations by IRA Design: https://iradesign.io
